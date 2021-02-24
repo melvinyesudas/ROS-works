@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>example</name>
+  <version>0.0.0</version>
+  <description>Example ROS2 Nodes</description>
+  <maintainer email=""></maintainer>
+  <license>Proprietary</license>
+  <author email=""></author>
+  <author email=""></author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>rcutils</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>example_msgs</depend>
+  <depend>tf_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_cppcheck</test_depend>
+  <test_depend>ament_cpplint</test_depend>
+  <test_depend>ament_xmllint</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
