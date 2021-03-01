@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>visualizer</name>
+  <version>0.0.0</version>
+  <description>Tracking Module</description>
+
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>std_msgs</depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rclcpp_components</build_depend>
+  <build_depend>rcutils</build_depend>
+  <build_depend>diagnostic_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>lidar_detection_msgs</build_depend>
+  <build_depend>trackedobj_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>rclcpp_components</exec_depend>
+  <exec_depend>rcutils</exec_depend>
+  <exec_depend>diagnostic_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>lidar_detection_msgs</exec_depend>
+  <exec_depend>trackedobj_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_cppcheck</test_depend>
+  <test_depend>ament_cpplint</test_depend>
+  <test_depend>ament_xmllint</test_depend>
+  <test_depend>rclcpp</test_depend>
+  <test_depend>rclcpp_components</test_depend>
+  <test_depend>rcutils</test_depend>
+  <test_depend>diagnostic_msgs</test_depend>
+  <test_depend>geometry_msgs</test_depend>
+  <test_depend>lidar_detection_msgs</test_depend>
+  <test_depend>trackedobj_msgs</test_depend>
+  <test_depend>visualization_msgs</test_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
